@@ -1520,7 +1520,6 @@ class SpackSolverSetup(object):
         return clauses
 
     def build_version_dict(self, possible_pkgs):
-        # type: (Iterable[str]) -> None
         """Declare any versions in specs not declared in packages."""
 
         packages_yaml = spack.config.get("packages")
